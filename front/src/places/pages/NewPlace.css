@@ -1,0 +1,55 @@
+/* NewPlace.css */
+.place-form {
+  list-style: none;
+  margin: 0 auto;
+  padding: 1rem;
+  width: 90%;
+  max-width: 40rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+  border-radius: 6px;
+  background: white;
+}
+
+  
+  .place-form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #f5f5f5;
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .place-form input:focus {
+    outline: none;
+    background-color: #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  .place-form label {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .place-form button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .place-form button:hover {
+    background-color: #0056b3;
+  }
+  
+  .place-form button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  

@@ -1,0 +1,73 @@
+.authentication {
+  width: 400px;
+  max-width: 80%;
+  margin: 2rem auto;
+  padding: 1.5rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+  border-radius: 6px;
+  background-color: black; /* Change the background color to black */
+}
+
+.authentication h2 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  color: white; /* Change the text color to white */
+}
+
+.authentication hr {
+  margin: 1.5rem 0;
+  border: none;
+  border-top: 1px solid #eaecef;
+}
+
+.authentication form {
+  display: flex;
+  flex-direction: column;
+}
+
+.authentication form input {
+  padding: 0.5rem 1rem;
+  margin-bottom: 1.5rem;
+  border: 1px solid #e1e4e8;
+  border-radius: 6px;
+  background-color: #fafbfc;
+  color: #24292e;
+  font-size: 1rem;
+}
+
+.authentication form input:focus {
+  outline: none;
+  border-color: #0366d6;
+  box-shadow: 0 0 0 3px rgba(3, 102, 214, 0.3);
+}
+
+.authentication form button {
+  align-self: center;
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 6px;
+  background-color: #00ff00; /* Change the button background color to bright green */
+  color: #fff;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+  margin-right: 20%;
+}
+
+.authentication form button:hover {
+  background-color: #044785;
+}
+
+.authentication form button:disabled {
+  background-color: #b3d4fc;
+  cursor: not-allowed;
+}
+
+.authentication form button:disabled:hover {
+  background-color: #b3d4fc;
+}
+.authentication button {
+  margin-top: 5%;
+  margin-left: 20%;
+}
